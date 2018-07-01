@@ -5,7 +5,7 @@ import resource.Resource;
 
 /**
  * 对AutoWireCapableBeanFactory进行了简单的封装，使其能直接处理Resource类型
- * Created by MiaoZhuang on 2016/6/5.
+ * Created by Lfc on 2017/6/5.
  */
 public class XmlBeanFactory extends AutoWireCapableBeanFactory {
 

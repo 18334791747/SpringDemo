@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * Created by MiaoZhuang on 2016/5/25.
+ * Created by Lfc on 2017/5/25.
  */
 public abstract class AbstractBeanFactory implements BeanFactory {
 

@@ -6,7 +6,7 @@ import java.net.URL;
 import java.net.URLConnection;
 
 /**
- * Created by MiaoZhuang on 2016/5/25.
+ * Created by Lfc on 2017/5/25.
  */
 public class URLResource implements Resource {
 

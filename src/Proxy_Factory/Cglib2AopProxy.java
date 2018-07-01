@@ -9,7 +9,7 @@ import java.lang.reflect.Method;
 
 /**
  * 通过Cglib创建代理对象，不需要被代理的对象实现接口
- * Created by MiaoZhuang on 2016/6/3.
+ * Created by Lfc on 2017/6/3.
  */
 public class Cglib2AopProxy implements AopProxy, MethodInterceptor {
 

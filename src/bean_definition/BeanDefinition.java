@@ -2,7 +2,7 @@ package bean_definition;
 
 /**
  * 存储通过反射创建对象所需要的信息
- * Created by MiaoZhuang on 2016/5/25.
+ * Created by Lfc on 2017/5/25.
  */
 public class BeanDefinition {
 

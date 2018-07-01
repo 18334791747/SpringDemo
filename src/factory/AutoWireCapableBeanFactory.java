@@ -9,7 +9,7 @@ import java.beans.PropertyDescriptor;
 import java.lang.reflect.Method;
 
 /**
- * Created by MiaoZhuang on 2016/5/25.
+ * Created by Lfc on 2017/5/25.
  */
 public class AutoWireCapableBeanFactory extends AbstractBeanFactory {
 

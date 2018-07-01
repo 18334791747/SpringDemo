@@ -5,7 +5,7 @@ import org.aopalliance.intercept.MethodInterceptor;
 
 /**
  * 生成Proxy的工厂类，可动态的判断通过Cglib还是Jdk动态代理生成
- * Created by MiaoZhuang on 2016/6/6.
+ * Created by Lfc on 2017/6/6.
  */
 public class ProxyFactory extends AdvisedSupport implements AopProxy {
 

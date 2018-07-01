@@ -4,7 +4,7 @@ import factory.AutoWireCapableBeanFactory;
 
 /**
  * 定义了refresh的基本框架
- * Created by MiaoZhuang on 2016/5/27.
+ * Created by Lfc on 2017/5/27.
  */
 public abstract class AbstractApplicationContext implements ApplicationContext {
 

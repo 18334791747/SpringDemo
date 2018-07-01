@@ -1,7 +1,7 @@
 package main;
 
 /**
- * Created by MiaoZhuang on 2016/6/1.
+ * Created by Lfc on 2017/6/1.
  */
 public class Scientist implements Person {
 

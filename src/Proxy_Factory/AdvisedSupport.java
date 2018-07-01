@@ -5,7 +5,7 @@ import org.aopalliance.intercept.MethodInterceptor;
 
 /**
  * 包含了需要插入切面的全部信息：对象，类，接口，通知，切点
- * Created by MiaoZhuang on 2016/6/1.
+ * Created by Lfc on 2017/6/1.
  */
 public class AdvisedSupport {
 

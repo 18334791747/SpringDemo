@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * 在后置处理器中自动执行的代理创建器，对“每一个生成的bean”进行检查，若对象存在对应的Advisor，
  * 则根据其是否存在接口调用Java动态代理或者Cglib进行处理，生成对应的动态代理对象
- * Created by MiaoZhuang on 2016/6/2.
+ * Created by Lfc on 2017/6/2.
  */
 public class AspectJAwareAutoProxyCreater implements BeanPostProcessor, BeanFactoryAware {
 

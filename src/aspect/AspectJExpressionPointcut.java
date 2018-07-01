@@ -12,7 +12,7 @@ import java.util.Set;
 
 /**
  * 切点，调用AspectJ的库函数对expression所代表的切点进行判断匹配
- * Created by MiaoZhuang on 2016/6/1.
+ * Created by Lfc on 2017/6/1.
  */
 public class AspectJExpressionPointcut implements Pointcut, MethodMatcher, ClassFilter {
 

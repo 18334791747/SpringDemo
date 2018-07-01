@@ -5,7 +5,7 @@ import resource.URLResource;
 
 /**
  * 并未实现类加载器
- * Created by MiaoZhuang on 2016/5/27.
+ * Created by Lfc on 2017/5/27.
  */
 public class ClassPathXmlApplicationContext extends AbstractRefreshableApplicationContext {
 

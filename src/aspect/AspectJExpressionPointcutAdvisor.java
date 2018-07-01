@@ -4,7 +4,7 @@ import org.aopalliance.intercept.MethodInterceptor;
 
 /**
  * 切面，包含了两个元素，Advice（通知）与PointCut（切点），通Advice用MethodInterceptor替代
- * Created by MiaoZhuang on 2016/6/2.
+ * Created by Lfc on 2017/6/2.
  */
 public class AspectJExpressionPointcutAdvisor {
 

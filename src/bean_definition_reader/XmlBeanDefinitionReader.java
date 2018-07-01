@@ -16,7 +16,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.InputStream;
 
 /**
- * Created by MiaoZhuang on 2016/5/25.
+ * Created by Lfc on 2017/5/25.
  */
 public class XmlBeanDefinitionReader implements BeanDefinitionReader {
 

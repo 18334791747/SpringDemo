@@ -7,7 +7,7 @@ import resource.Resource;
 import java.util.List;
 
 /**
- * Created by MiaoZhuang on 2016/5/27.
+ * Created by Lfc on 2017/5/27.
  */
 public abstract class AbstractRefreshableApplicationContext extends AbstractApplicationContext {
 

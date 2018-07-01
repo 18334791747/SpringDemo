@@ -1,7 +1,7 @@
 package main;
 
 /**
- * Created by MiaoZhuang on 2016/6/3.
+ * Created by Lfc on 2017/6/3.
  */
 public class Knight {
     public void say() {
