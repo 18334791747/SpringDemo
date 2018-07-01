@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<beans>
+    <!--IOC部分-->
+    <bean id="OutputService" class="main.OutputService">
+        <property name="message" value="辅助输出成功"/>
+    </bean>
+    <bean id="MySpringTest" class="main.MySpringTest">
+        <property name="message" value="成功"/>
+        <property name="OutputService" ref="OutputService"/>
+    </bean>
+    <!--AOP部分-->
+    <!--代理自动生成器-->
+    <bean id="AutoProxyCreater" class="application_context.AspectJAwareAutoProxyCreater"/>
+    <!--自定义的拦截器-->
+    <bean id="MyMethodInterceptor" class="aopalliance.MyInterceptor"/>
+    <!--自定义的切面-->
+    <bean id="AspectJExpressionPointcutAdvisorByJDK" class="aspect.AspectJExpressionPointcutAdvisor">
+        <!--用到了AspectJ的切点表达式-->
+        <!--被代理的方法-->
+        <property name="expression" value="execution(* main.Person.say(..))"/>
+        <!--织入的方式-->
+        <property name="methodInterceptor" ref="MyMethodInterceptor"/>
+    </bean>
+    <bean id="AspectJExpressionPointcutAdvisorByCglib" class="aspect.AspectJExpressionPointcutAdvisor">
+        <!--用到了AspectJ的切点表达式-->
+        <property name="expression" value="execution(* main.Knight.say(..))"/>
+        <property name="methodInterceptor" ref="MyMethodInterceptor"/>
+    </bean>
+    <!--测试用例-->
+    <bean id="Scientist" class="main.Scientist"/>
+    <bean id="Knight" class="main.Knight"/>
+</beans>
